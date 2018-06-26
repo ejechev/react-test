@@ -6,7 +6,7 @@ const Movie = props => {
       <h1>{props.name}</h1>
       <p>{props.time}</p>
       <p>svobodni mesta {props.mesta}</p>
-      <button onClick={props.zapazi}> Zapazi 1 mqsto </button>
+      <button onClick={props.zapazi} disabled={props.mesta < 1}> Zapazi 1 mqsto </button>
     </div>
   );
 };

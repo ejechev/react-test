@@ -21,14 +21,18 @@ class Program extends Component {
             {
                 name: 'React lekciq 4',
                 time: 'dnes po nqkoe vreme',
-                mesta: 10
+                mesta: 0
             }
         ]
     }
 
     zapazi(event) {
-         console.log('zapazih 1 mqsto')
-        
+         console.log(event.target);
+         this.setState(() => {
+             return {
+
+             }
+         })    
     }
 
     render() {
